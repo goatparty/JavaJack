@@ -93,4 +93,15 @@ public class Dealer {
 			}
 		}
 	}
+
+	/**
+	Picks the first card of the deck returns, the card to the card mgmt object and places it in used card array- Optionally pass a card you want 
+	*/
+	public int getCard(int x) {
+		int bin,bin2;
+		deck[x] = bin;
+		bin2 = CardMgmt.getCardValue(bin);
+		return 
+	}
+
 }
